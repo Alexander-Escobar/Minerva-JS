@@ -1,5 +1,5 @@
 # Minerva-JS
-Framework Minerva JS, permite a estudiantes, que han realizado un buen Analisis y Diseño para el alojamiento de los datos de un aplicativo, llevar a cabo su proyecto. Minerva JS, es una herramienta para el desarrollo y aprendizaje que permite crear en cuestion de minutos CRUD sobre tablas.
+Framework Minerva JavaScript, permite a estudiantes, que han realizado un buen Analisis y Diseño para el alojamiento de los datos de un aplicativo, llevar a cabo su proyecto. Minerva JS, es una herramienta para el desarrollo y aprendizaje que permite crear en cuestion de minutos CRUD sobre tablas.
 
 Filosofia:
 La filosofia de Minerva JS, es desarrollar en forma rapida, ligera y en cierta medida de uso Intuitivo un aplicativo que permita a los Analistas/Diseñadores de Base de datos, desvincularse de los problemas del desarrollo del FrontEnd, trabajando en un diseño de Base de Datos, exclusivamente para el almacenaje de informacion.
