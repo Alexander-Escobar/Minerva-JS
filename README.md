@@ -1,10 +1,10 @@
 # Minerva-JS
 El Entorno de Trabajo Minerva implementa el lenguaje JavaScript tanto del lado del servidor como del cliente, permite a usuarios/estudiantes/analistas/programadores, levantar un aplicativo partiendo de un buen Analisis y Diseño de base de datos para el alojamiento de la informacion del mismo y llevar a cabo su proyecto. Minerva JS, es una herramienta para el desarrollo y aprendizaje de sus creadores que permite implementar en cuestion de minutos CRUD sobre tablas.
 
-Minerva-JS, es un entorno de trabajo que permite crear aplicaciones de mediana o poca complejidad en minutos, partiendo de una base de datos Relacional nueva o pre-existente.
+***Minerva-JS, es un entorno de trabajo que permite crear aplicaciones de mediana o poca complejidad en minutos, partiendo de una base de datos Relacional nueva o pre-existente. Empleando un manifiesto de los objetos de la base de datos que funciona como el Modelo de Datos.***
 
 Filosofia:
-La filosofia de Minerva JS, es desarrollar en forma rapida, ligera y en cierta medida de uso Intuitivo un aplicativo que permita a los Analistas/Diseñadores de Base de datos, desvincularse de los problemas del desarrollo del FrontEnd y BackEnd, enfocandose exclusivamente en el Diseño de la Base de Datos.
+La filosofia de Minerva JS, es desarrollar en forma rapida, ligera y en cierta medida de uso Intuitivo un aplicativo que permita a los Analistas/Diseñadores de Base de datos, desvincularse de los problemas del desarrollo del FrontEnd y BackEnd, enfocandose exclusivamente en el Diseño de la Base de Datos. Todo lo anterior bajo un enfoque de "mantenlo simple".
 
 Ventajas:
 * Ideal para creacion de un prototipo de aplicacion o para desarrollos de tipo escolar/universitario
