@@ -10,13 +10,26 @@ exports.models =
 		 sql_edit: " SELECT * FROM pais WHERE iso3 = ? ",
 		 sql_new: " SELECT * FROM pais ",
 		 sql_delete : " DELETE FROM pais WHERE iso3 = ? ",
-		 
-         columns: [
-            {col: "iso3",				type: "varchar",	length: 3,		minLength: 3, required: true,	visible: true,	searchable: true, label: "Nombre Corto (ISO 3)", toUpperLowerCase: true, allowNoEdit: true, remote_check: "SELECT count(1) as existe FROM pais WHERE iso3 = ? "},
-            {col: "nombre",				type: "varchar",	length: 80,		minLength: 2, required: true,	visible: true,	searchable: true, label: "Nombre",		placeholder: "Ingrese un Nombre"},
-            {col: "leyenda",			type: "varchar",	length: 80,		minLength: 0, required: false,	visible: true,	searchable: false, label: "Leyenda",	placeholder: "Ingrese una Leyenda"},
-            {col: "iso2",				type: "char",		length: 2,		minLength: 2, required: false,	visible: true,	searchable: true, label: "Nombre Corto (ISO 2)", toUpperLowerCase: true, allowNoEdit: true, remote_check: "SELECT count(1) as existe FROM pais WHERE iso2 = ? "}
+	 columns:[
+         	db: [
+            		{col: "iso3", 	type: "varchar",	length: 3, 	required: true, check_unike: true, fk_check: FK_TABLE},
+            		{col: "nombre",	type: "varchar",	length: 80,	required: true},
+            		{col: "leyenda",type: "varchar",	length: 80,	required: false},
+            		{col: "iso2",	type: "char",		length: 2,	check_unike: true}
+         ],
+         	display: [
+            		{visible: true,	searchable: true, label: "Nombre Corto (ISO 3)", toUpperLowerCase: true, allowNoEdit: true},
+            		{visible: true,	searchable: true, label: "Nombre",	placeholder: "Ingrese un Nombre"},
+            		{visible: true,	searchable: false, label: "Leyenda",	placeholder: "Ingrese una Leyenda"},
+            		{visible: true,	searchable: true, label: "Nombre Corto (ISO 2)"}
+         ],
+         	validacion: [
+            		{minLength: 3, allowNoEdit: true},
+            		{minLength: 2},
+            		{minLength: 0},
+            		{minLength: 2, allowNoEdit: true}
          ]
+	]
       },	  
       {
          name: "departamento",
