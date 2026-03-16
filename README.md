@@ -68,6 +68,7 @@ La aplicacion es definida usando una estructura JSON que describe:
 
 Ejemplo del **modelo de aplicación declarada en JSON**
 
+
 models
 └── tables[]
     ├── name
