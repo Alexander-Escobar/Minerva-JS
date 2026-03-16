@@ -69,32 +69,32 @@ La aplicacion es definida usando una estructura JSON que describe:
 Ejemplo del **modelo de aplicación declarada en JSON**
 
 
-models
-└── tables[]
-    ├── name
-    ├── title
-    ├── table
-    ├── primary_key[]
-    ├── sql_select
-    ├── sql_edit
-    ├── sql_new
-    ├── sql_delete
-    ├── toolbar[]
-    │   ├── button
-    │   ├── title
-    │   ├── icon
-    │   ├── URL
-    │   └── verbo
-    └── columns[]
-        ├── col
-        ├── type
-        ├── length
-        ├── minLength
-        ├── required
-        ├── visible
-        ├── searchable
-        ├── label
-        └── validations...
+- models
+  - tables[]
+    - name
+    - title
+    - table
+    - primary_key[]
+    - sql_select
+    - sql_edit
+    - sql_new
+    - sql_delete
+    - toolbar[]
+      - button
+      - title
+      - icon
+      - URL
+      - verbo
+    - columns[]
+      - col
+      - type
+      - length
+      - minLength
+      - required
+      - visible
+      - searchable
+      - label
+      - validations...
 
 
 Ventajas:
